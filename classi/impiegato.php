@@ -1,6 +1,6 @@
 <?php
 
-include_once __DIR__ . '/../trait/anno.php';
+//include_once __DIR__ . '/../trait/anno.php';
 
 class Impiegato{
 
@@ -9,7 +9,7 @@ class Impiegato{
   public $livello;
 
   //Trait
-  use Anno;
+  
 
   public function __construct($nome, $cognome, $livello)
   {
