@@ -1,14 +1,13 @@
 <?php
 
 include_once __DIR__ . '/prodotto.php';
-include_once __DIR__ . '/../trait/anno.php';
+//include_once __DIR__ . '/../trait/anno.php';
 
 class libro extends prodotto {
   public $pagine;
   public $copertina;
 
-  //trait
-  use Anno;
+  
 
   // public function __construct($pagine,$copertina)
   // {
